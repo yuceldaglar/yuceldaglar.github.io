@@ -48,21 +48,33 @@
     <main role="main" class="container">
 	        <div class="row">
 			            <div class="col-md-8 blog-main">
-                <h3 class="pb-3 mb-4 font-italic border-bottom">
-                    Latest Posts
-                </h3>
-
                 <div class="blog-post">
-                    <h2 class="blog-post-title">Hello, world!</h2>
-                    <p class="blog-post-meta">April 23, 2021</p>
+                    <h2 class="blog-post-title">Simple Static Site Generator</h2>
+                    <p class="blog-post-meta">May 2, 2021</p>
 
-					<blockquote>For non-programmers, 'hello, world!' is a tradition among programmers. When you learn a programming language, first you write program that displays 'hello, world!'.</blockquote>
-                    <p>I'am trying to learn use Github pages for blogging.</p>
-                    <hr>                    
+					<p>I have been thinking about setting up a blog. After a little research I decided to use Github Pages. Github gives you the opportunity to host static files. So the next step is to use a static site generator.</p>
+					<p>At this point, I decided to develop a simple one for myself. If I don’t develop this where is the fun to setup a blog :)</p>
+					<p>Here you can find the repo: <a href="https://github.com/yuceldaglar/Simple-Static-Site-Generator">Simple-Static-Site-Generator</a></p>
+                    <hr> 
+					<p>Simple static site generator has one feature. Its algorithm is something like this:</p>
+					<p>
+						<ul>
+							<li>traverses the directories and files</li>
+							<li>If directory contains header.html set header</li>
+							<li>If directory contains footer.html set footer</li>
+							<li>For each .html file in the directory</li>
+							<li>
+								<ul>
+									<li>Concat the contents of header + file + footer</li>
+									<li>Save the result to the output directory</li>
+								</ul>
+							</li>
+							<li></li>
+						</ul>
+					</p>
                 </div><!-- /.blog-post -->
 
-            </div><!-- /.blog-main -->
-            <aside class="col-md-4 blog-sidebar">
+            </div><!-- /.blog-main -->            <aside class="col-md-4 blog-sidebar">
 
                 <div class="p-3">
                     <h4 class="font-italic">Archives</h4>

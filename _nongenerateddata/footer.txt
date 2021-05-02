@@ -5,6 +5,7 @@
 
 						<ol class="list-unstyled mb-0">
 							<li><a href="/hello-world">Hello, world!</a></li>
+							<li><a href="/simple-static-site-generator">Static Site Generator</a></li>
 						</ol>
                 </div>
             </aside><!-- /.blog-sidebar -->
